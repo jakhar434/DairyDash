@@ -11,6 +11,7 @@ export const products = pgTable("products", {
   category: text("category").notNull(),
   imageUrl: text("image_url").notNull(),
   stock: text("stock").notNull().default('100'),
+  variants: text("variants").notNull().default('[]'),
 });
 
 export const orders = pgTable("orders", {
@@ -46,6 +47,15 @@ export const insertAdminSchema = createInsertSchema(admins).omit({
 
 export type Product = typeof products.$inferSelect;
 export type InsertProduct = z.infer<typeof insertProductSchema>;
+
+export const productVariantSchema = z.object({
+  id: z.string(),
+  name: z.string(),
+  price: z.string(),
+  size: z.string(),
+});
+
+export type ProductVariant = z.infer<typeof productVariantSchema>;
 
 export type Order = typeof orders.$inferSelect;
 export type InsertOrder = z.infer<typeof insertOrderSchema>;

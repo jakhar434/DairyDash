@@ -23,7 +23,7 @@ export function Header({ cartItemCount = 0 }: HeaderProps) {
           <Link href="/">
             <a className="flex items-center gap-2 hover-elevate active-elevate-2 px-3 py-2 rounded-md -ml-3" data-testid="link-home">
               <div className="text-2xl font-bold bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent">
-                SHIRO
+                Frosteva
               </div>
             </a>
           </Link>

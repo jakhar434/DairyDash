@@ -61,7 +61,7 @@ export default function Home() {
             <h1 className="text-4xl md:text-6xl font-bold mb-4 text-white">
               Welcome to{" "}
               <span className="bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent">
-                SHIRO
+                Frosteva
               </span>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
@@ -125,7 +125,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                SHIRO Premium Collection
+                Frosteva Premium Collection
               </h2>
               <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
                 Handpicked premium dairy products and artisanal condiments for your family
