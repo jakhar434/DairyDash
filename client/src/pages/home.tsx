@@ -9,7 +9,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { Leaf, Truck, Shield } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import type { Product } from "@shared/schema";
-import heroImage from "@assets/generated_images/rustic_farm_dairy_hero_image.png";
+// Hero image is served from public folder
 
 export default function Home() {
   const { toast } = useToast();
@@ -49,7 +49,7 @@ export default function Home() {
         <section className="relative h-[500px] md:h-[600px] flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0">
             <img
-              src={heroImage}
+              src="/images/rustic_farm_dairy_hero_image.png"
               alt="Fresh dairy products"
               className="w-full h-full object-cover"
             />

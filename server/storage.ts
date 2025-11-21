@@ -38,7 +38,7 @@ export class MemStorage implements IStorage {
         description: "Pure, golden ghee made from grass-fed cow's milk. Rich in flavor and nutrients, perfect for cooking and traditional recipes.",
         price: "14.99",
         category: "Dairy",
-        imageUrl: "/assets/generated_images/golden_ghee_in_glass_jar.png",
+        imageUrl: "/images/golden_ghee_in_glass_jar.png",
         stock: "50",
       },
       {
@@ -46,7 +46,7 @@ export class MemStorage implements IStorage {
         description: "Creamy, smooth yogurt curd made fresh daily. Rich in probiotics and calcium for a healthy digestive system.",
         price: "5.99",
         category: "Dairy",
-        imageUrl: "/assets/generated_images/fresh_yogurt_curd_in_bowl.png",
+        imageUrl: "/images/fresh_yogurt_curd_in_bowl.png",
         stock: "75",
       },
       {
@@ -54,7 +54,7 @@ export class MemStorage implements IStorage {
         description: "Pure, fresh milk from local dairy farms. No hormones or artificial additives. Delivered fresh to your door.",
         price: "4.99",
         category: "Dairy",
-        imageUrl: "/assets/generated_images/fresh_milk_in_glass_bottle.png",
+        imageUrl: "/images/fresh_milk_in_glass_bottle.png",
         stock: "100",
       },
       {
@@ -62,7 +62,7 @@ export class MemStorage implements IStorage {
         description: "Premium quality mustard oil, cold-pressed to retain all natural nutrients. Perfect for cooking and traditional recipes.",
         price: "12.99",
         category: "Oils",
-        imageUrl: "/assets/generated_images/mustard_oil_in_glass_bottle.png",
+        imageUrl: "/images/mustard_oil_in_glass_bottle.png",
         stock: "60",
       },
       {
@@ -70,7 +70,7 @@ export class MemStorage implements IStorage {
         description: "All-natural peanut butter with real peanut chunks. No added sugar or preservatives. Perfect for sandwiches and snacks.",
         price: "8.99",
         category: "Spreads",
-        imageUrl: "/assets/generated_images/crunchy_peanut_butter_jar.png",
+        imageUrl: "/images/crunchy_peanut_butter_jar.png",
         stock: "80",
       },
       {
@@ -78,7 +78,7 @@ export class MemStorage implements IStorage {
         description: "Silky smooth peanut butter made from premium roasted peanuts. Rich, creamy texture that spreads perfectly.",
         price: "8.99",
         category: "Spreads",
-        imageUrl: "/assets/generated_images/smooth_peanut_butter_jar.png",
+        imageUrl: "/images/smooth_peanut_butter_jar.png",
         stock: "85",
       },
       {
@@ -86,7 +86,7 @@ export class MemStorage implements IStorage {
         description: "Indulgent chocolate peanut butter spread. Rich cocoa flavor blended with creamy peanuts for a decadent treat.",
         price: "9.99",
         category: "Spreads",
-        imageUrl: "/assets/generated_images/chocolate_peanut_butter_spread_jar.png",
+        imageUrl: "/images/chocolate_peanut_butter_spread_jar.png",
         stock: "70",
       },
     ];
