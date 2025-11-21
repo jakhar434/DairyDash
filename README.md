@@ -4,9 +4,11 @@ A modern, full-featured e-commerce platform for purchasing premium dairy product
 
 ## 🚀 Live Preview
 
+**▶️ Visit SHIRO Now:** https://b5685270-b7e8-4c55-8db5-c3afcfbef87a-00-37ax1u5un51cm.picard.replit.dev/
+
 **Website URL:** https://shiro-dairy.replit.dev
 
-**Admin Dashboard:** https://shiro-dairy.replit.dev/admin
+**Admin Dashboard:** https://b5685270-b7e8-4c55-8db5-c3afcfbef87a-00-37ax1u5un51cm.picard.replit.dev/admin
 - Login: `admin` / `admin123`
 
 ---
@@ -14,14 +16,14 @@ A modern, full-featured e-commerce platform for purchasing premium dairy product
 ## 🌟 Features
 
 ### Customer Features
-- **Product Catalog** - Browse 7 premium dairy products and condiments with detailed descriptions and pricing
-  - Fresh Ghee
-  - Fresh Curd
-  - Farm Fresh Milk
-  - Cold-Pressed Mustard Oil
-  - Crunchy Peanut Butter
-  - Smooth Peanut Butter
-  - Chocolate Peanut Butter
+- **Product Catalog** - Browse 7 premium dairy products and condiments with authentic packaging and SHIRO branding
+  - Premium Ghee - ₹999
+  - Fresh Curd - ₹449
+  - Farm Fresh Milk - ₹399
+  - Cold-Pressed Mustard Oil - ₹849
+  - Crunchy Peanut Butter - ₹699
+  - Smooth Peanut Butter - ₹699
+  - Chocolate Peanut Butter - ₹749
 
 - **Shopping Cart** - Add items, adjust quantities, remove products
 - **Checkout System** - Professional checkout form with customer information collection
@@ -41,8 +43,10 @@ A modern, full-featured e-commerce platform for purchasing premium dairy product
 
 - **Dark & Yellow Theme** - Professional color scheme optimized for food products
 - **Hero Section** - Eye-catching landing page with call-to-action buttons
+- **Authentic SHIRO Branded Products** - Real product images with SHIRO packaging design
 - **Product Cards** - Clean, modern card design with hover effects
 - **Customer Reviews Section** - 4 verified customer testimonials with ratings
+- **Indian Pricing (₹ Rupees)** - Affordable authentic pricing for Indian market
 - **Admin Sidebar** - Intuitive navigation for admin functions
 - **Loading States** - Skeleton loaders for smooth user experience
 - **Responsive Layout** - Mobile-first responsive design
@@ -322,12 +326,14 @@ For support and questions:
 
 ## 👨‍💼 About SHIRO
 
-SHIRO (白 - meaning "white" in Japanese) is dedicated to bringing premium quality dairy products and artisanal condiments directly to your door. All our products are:
+SHIRO (白 - meaning "white" in Japanese) is dedicated to bringing premium quality dairy products and artisanal condiments directly to your door. All our products feature authentic SHIRO branding and premium packaging. Our offerings include:
 - 100% pure with no artificial additives
 - Sourced from trusted local farms
 - Quality assured through rigorous testing
 - Delivered fresh to maintain maximum nutrition
 - Crafted with care and tradition
+- Authentic product photography with SHIRO branding
+- Competitive Indian rupee pricing
 
 Every spoonful represents our commitment to excellence and your family's health.
 
