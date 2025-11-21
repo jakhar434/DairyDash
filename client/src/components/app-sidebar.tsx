@@ -48,7 +48,7 @@ export function AppSidebar() {
         <SidebarGroup>
           <SidebarGroupLabel className="text-lg font-bold mb-2">
             <span className="bg-gradient-to-r from-sidebar-primary to-sidebar-primary/80 bg-clip-text text-transparent">
-              Pure Harvest Admin
+              The Golden Spoon
             </span>
           </SidebarGroupLabel>
           <SidebarGroupContent>

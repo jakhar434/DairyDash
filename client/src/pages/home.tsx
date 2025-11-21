@@ -3,6 +3,7 @@ import { useQuery } from "@tanstack/react-query";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { ProductCard } from "@/components/product-card";
+import { Reviews } from "@/components/reviews";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -58,13 +59,13 @@ export default function Home() {
           
           <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-6xl font-bold mb-4 text-white">
-              Farm Fresh{" "}
+              Welcome to{" "}
               <span className="bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent">
-                Dairy & Condiments
+                The Golden Spoon
               </span>
             </h1>
             <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
-              Premium quality products sourced from local farms. Experience the pure taste of nature in every bite.
+              Premium quality dairy products and artisanal condiments. Every spoonful of authentic taste, sourced fresh from local farms.
             </p>
             <div className="flex flex-wrap items-center justify-center gap-4">
               <a href="#products">
@@ -93,27 +94,27 @@ export default function Home() {
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-4">
                   <Leaf className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-semibold mb-2">100% Natural</h3>
+                <h3 className="text-xl font-semibold mb-2">Farm Fresh</h3>
                 <p className="text-muted-foreground">
-                  No artificial preservatives or additives. Pure and wholesome products.
+                  Sourced directly from trusted local farms. No middlemen, maximum freshness.
                 </p>
               </div>
               <div className="text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-4">
                   <Shield className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-semibold mb-2">Quality Assured</h3>
+                <h3 className="text-xl font-semibold mb-2">100% Pure</h3>
                 <p className="text-muted-foreground">
-                  Rigorous quality checks ensure you get the best products every time.
+                  No artificial additives or preservatives. Just pure, natural goodness.
                 </p>
               </div>
               <div className="text-center">
                 <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-4">
                   <Truck className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-xl font-semibold mb-2">Fast Delivery</h3>
+                <h3 className="text-xl font-semibold mb-2">Express Delivery</h3>
                 <p className="text-muted-foreground">
-                  Quick and reliable delivery to keep your products fresh.
+                  Fast shipping to bring freshness to your doorstep quickly.
                 </p>
               </div>
             </div>
@@ -124,10 +125,10 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Our Premium Collection
+                The Golden Spoon Collection
               </h2>
               <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                Discover our range of carefully crafted dairy products and artisanal condiments
+                Handpicked premium dairy products and artisanal condiments for your family
               </p>
             </div>
 
