@@ -1,6 +1,15 @@
-# Pure Harvest 🌾 - Premium Dairy & Condiments E-Commerce Platform
+# SHIRO 🥛 - Premium Dairy & Condiments E-Commerce Platform
 
 A modern, full-featured e-commerce platform for purchasing premium dairy products and artisanal condiments. Built with React, Express, and Tailwind CSS.
+
+## 🚀 Live Preview
+
+**Website URL:** https://shiro-dairy.replit.dev
+
+**Admin Dashboard:** https://shiro-dairy.replit.dev/admin
+- Login: `admin` / `admin123`
+
+---
 
 ## 🌟 Features
 
@@ -17,6 +26,7 @@ A modern, full-featured e-commerce platform for purchasing premium dairy product
 - **Shopping Cart** - Add items, adjust quantities, remove products
 - **Checkout System** - Professional checkout form with customer information collection
 - **Product Details** - Rich product pages with images, descriptions, and stock information
+- **Customer Reviews** - See testimonials from satisfied customers
 - **Responsive Design** - Fully responsive on mobile, tablet, and desktop devices
 - **Dark Theme** - Beautiful dark interface with yellow accent colors
 
@@ -32,24 +42,19 @@ A modern, full-featured e-commerce platform for purchasing premium dairy product
 - **Dark & Yellow Theme** - Professional color scheme optimized for food products
 - **Hero Section** - Eye-catching landing page with call-to-action buttons
 - **Product Cards** - Clean, modern card design with hover effects
+- **Customer Reviews Section** - 4 verified customer testimonials with ratings
 - **Admin Sidebar** - Intuitive navigation for admin functions
 - **Loading States** - Skeleton loaders for smooth user experience
 - **Responsive Layout** - Mobile-first responsive design
-
-## 🚀 Live Preview
-
-**Website URL:** https://pure-harvest.replit.dev (or your deployed Replit domain)
-
-**Admin Dashboard:** https://pure-harvest.replit.dev/admin
-- Login: `admin` / `admin123`
 
 ## 📱 Screenshots
 
 ### Home Page
 ![Home Page](./docs/screenshots/home.png)
 - Hero section with farm fresh imagery
-- Feature highlights (100% Natural, Quality Assured, Fast Delivery)
+- Feature highlights (Farm Fresh, 100% Pure, Express Delivery)
 - Product catalog with category filtering
+- Customer reviews section
 
 ### Product Catalog
 ![Product Catalog](./docs/screenshots/catalog.png)
@@ -77,6 +82,13 @@ A modern, full-featured e-commerce platform for purchasing premium dairy product
 - Customer information fields
 - Order summary
 - Real-time order placement
+
+### Customer Reviews
+![Reviews](./docs/screenshots/reviews.png)
+- Authentic customer testimonials
+- Star ratings (5-star reviews)
+- Customer names and roles
+- Helpful feedback
 
 ### Admin Dashboard
 ![Admin Dashboard](./docs/screenshots/admin-dashboard.png)
@@ -142,6 +154,7 @@ Perfect for:
 │   │   ├── pages/         # Page components
 │   │   ├── lib/           # Utilities & hooks
 │   │   └── App.tsx        # Main app component
+│   ├── public/images/     # Product images
 │   ├── index.html         # HTML entry point
 │   └── vite.config.ts     # Vite configuration
 ├── server/                # Backend (Express)
@@ -163,8 +176,8 @@ Perfect for:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/jakhar434/DairyDash.git
-   cd DairyDash
+   git clone https://github.com/yourusername/shiro-dairy.git
+   cd shiro-dairy
    ```
 
 2. **Install dependencies**
@@ -202,6 +215,10 @@ Perfect for:
    - Click "Proceed to Checkout"
    - Fill in shipping information
    - Click "Place Order"
+
+4. **View Reviews**
+   - Scroll to customer reviews section
+   - See ratings and testimonials from verified buyers
 
 ### For Admins
 
@@ -255,11 +272,12 @@ Update company name, descriptions, and contact info in components:
 - Header: `client/src/components/header.tsx`
 - Footer: `client/src/components/footer.tsx`
 - Home page: `client/src/pages/home.tsx`
+- Reviews: `client/src/components/reviews.tsx`
 
 ## 🚀 Deployment
 
 ### Deploy to Replit
-1. Push code to GitHub (DairyDash repository)
+1. Push code to GitHub (your repository)
 2. Click "Publish" button in Replit
 3. Get your live `.replit.app` domain
 
@@ -299,16 +317,19 @@ This project is open source and available under the MIT License.
 ## 💬 Support
 
 For support and questions:
-- Email: hello@pureharvest.com
-- GitHub Issues: [Create an issue](https://github.com/jakhar434/DairyDash/issues)
+- Email: hello@shiro.com
+- GitHub Issues: [Create an issue](https://github.com/yourusername/shiro-dairy/issues)
 
-## 👨‍💼 About Pure Harvest
+## 👨‍💼 About SHIRO
 
-Pure Harvest is dedicated to bringing premium quality dairy products and artisanal condiments directly to your door. All our products are:
-- 100% natural with no artificial additives
-- Sourced from local farms
+SHIRO (白 - meaning "white" in Japanese) is dedicated to bringing premium quality dairy products and artisanal condiments directly to your door. All our products are:
+- 100% pure with no artificial additives
+- Sourced from trusted local farms
 - Quality assured through rigorous testing
 - Delivered fresh to maintain maximum nutrition
+- Crafted with care and tradition
+
+Every spoonful represents our commitment to excellence and your family's health.
 
 ---
 

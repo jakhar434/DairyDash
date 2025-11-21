@@ -8,10 +8,10 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-lg font-bold mb-4 bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent">
-              The Golden Spoon
+              SHIRO
             </h3>
             <p className="text-sm text-muted-foreground mb-4">
-              Premium quality dairy products and artisanal condiments delivered fresh to your table. Every spoonful of quality, every meal a celebration.
+              Premium quality dairy products and artisanal condiments. Pure white excellence delivered fresh to your table. Pure taste, pure quality.
             </p>
           </div>
 
@@ -43,7 +43,7 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2">
                 <Mail className="h-4 w-4 mt-0.5 text-muted-foreground" />
-                <span className="text-sm text-muted-foreground">hello@thegoldenspoon.com</span>
+                <span className="text-sm text-muted-foreground">hello@shiro.com</span>
               </li>
               <li className="flex items-start gap-2">
                 <Phone className="h-4 w-4 mt-0.5 text-muted-foreground" />
@@ -59,7 +59,7 @@ export function Footer() {
 
         <div className="mt-8 pt-8 border-t text-center">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} The Golden Spoon. All rights reserved.
+            © {new Date().getFullYear()} SHIRO. All rights reserved.
           </p>
         </div>
       </div>
