@@ -1,12 +1,12 @@
-# SHIRO 🥛 - Premium Dairy & Condiments E-Commerce Platform
+# Frosteva 🥛 - Premium Dairy & Condiments E-Commerce Platform
 
 A modern, full-featured e-commerce platform for purchasing premium dairy products and artisanal condiments. Built with React, Express, and Tailwind CSS.
 
 ## 🚀 Live Preview
 
-**▶️ Visit SHIRO Now:** https://b5685270-b7e8-4c55-8db5-c3afcfbef87a-00-37ax1u5un51cm.picard.replit.dev/
+**▶️ Visit Frosteva Now:** https://b5685270-b7e8-4c55-8db5-c3afcfbef87a-00-37ax1u5un51cm.picard.replit.dev/
 
-**Website URL:** https://shiro-dairy.replit.dev
+**Website URL:** https://frosteva-dairy.replit.dev
 
 **Admin Dashboard:** https://b5685270-b7e8-4c55-8db5-c3afcfbef87a-00-37ax1u5un51cm.picard.replit.dev/admin
 - Login: `admin` / `admin123`
@@ -16,15 +16,16 @@ A modern, full-featured e-commerce platform for purchasing premium dairy product
 ## 🌟 Features
 
 ### Customer Features
-- **Product Catalog** - Browse 7 premium dairy products and condiments with authentic packaging and SHIRO branding
-  - Premium Ghee - ₹999
-  - Fresh Curd - ₹449
-  - Farm Fresh Milk - ₹399
-  - Cold-Pressed Mustard Oil - ₹849
-  - Crunchy Peanut Butter - ₹699
-  - Smooth Peanut Butter - ₹699
-  - Chocolate Peanut Butter - ₹749
+- **Product Catalog** - Browse 7 premium dairy products with authentic bilingual packaging and nutritional information
+  - Premium Ghee: 250g (₹450) | 500g (₹900) | 1kg (₹1800)
+  - Fresh Curd: 400g (₹50) | 800g (₹100) | 1kg (₹125)
+  - Farm Fresh Milk: 500ml (₹30) | 1L (₹60) | 1.5L (₹90)
+  - Cold-Pressed Mustard Oil: 500ml (₹145) | 1L (₹290) | 2L (₹550)
+  - Crunchy Peanut Butter: 250g (₹160) | 500g (₹320) | 1kg (₹640)
+  - Smooth Peanut Butter: 250g (₹160) | 500g (₹320) | 1kg (₹640)
+  - Chocolate Peanut Butter: 250g (₹180) | 500g (₹360) | 1kg (₹720)
 
+- **Size Variants** - Choose from multiple sizes for every product
 - **Shopping Cart** - Add items, adjust quantities, remove products
 - **Checkout System** - Professional checkout form with customer information collection
 - **Product Details** - Rich product pages with images, descriptions, and stock information
@@ -43,10 +44,10 @@ A modern, full-featured e-commerce platform for purchasing premium dairy product
 
 - **Dark & Yellow Theme** - Professional color scheme optimized for food products
 - **Hero Section** - Eye-catching landing page with call-to-action buttons
-- **Authentic SHIRO Branded Products** - Real product images with SHIRO packaging design
-- **Product Cards** - Clean, modern card design with hover effects
+- **Authentic Frosteva Branded Products** - Bilingual packaging (English & Hindi) with nutritional information
+- **Product Cards** - Clean, modern card design with size variant selectors
 - **Customer Reviews Section** - 4 verified customer testimonials with ratings
-- **Indian Pricing (₹ Rupees)** - Affordable authentic pricing for Indian market
+- **Indian Pricing (₹ Rupees)** - Competitive market-based pricing for Indian consumers
 - **Admin Sidebar** - Intuitive navigation for admin functions
 - **Loading States** - Skeleton loaders for smooth user experience
 - **Responsive Layout** - Mobile-first responsive design
@@ -62,29 +63,23 @@ A modern, full-featured e-commerce platform for purchasing premium dairy product
 
 ### Product Catalog
 ![Product Catalog](./docs/screenshots/catalog.png)
-- Beautiful product grid with images
-- Category filtering (Dairy, Oils, Spreads)
-- Price and stock information
-
-### Product Details
-![Product Details](./docs/screenshots/product-detail.png)
-- High-quality product images
-- Detailed product descriptions
-- Quantity selector
-- Add to cart functionality
+- Beautiful product grid with Frosteva branding
+- Size variant selectors (500ml, 1L, 1.5L, etc.)
+- Bilingual packaging with nutritional information
+- Real-time price updates based on selected size
 
 ### Shopping Cart
 ![Shopping Cart](./docs/screenshots/cart.png)
-- View all cart items
-- Adjust quantities
-- Order summary with total
+- View all cart items with selected sizes
+- Adjust quantities easily
+- Order summary in Indian Rupees
 - Proceed to checkout
 
 ### Checkout
 ![Checkout](./docs/screenshots/checkout.png)
 - Professional checkout form
 - Customer information fields
-- Order summary
+- Order summary in rupees
 - Real-time order placement
 
 ### Customer Reviews
@@ -92,7 +87,7 @@ A modern, full-featured e-commerce platform for purchasing premium dairy product
 - Authentic customer testimonials
 - Star ratings (5-star reviews)
 - Customer names and roles
-- Helpful feedback
+- Helpful feedback about Frosteva products
 
 ### Admin Dashboard
 ![Admin Dashboard](./docs/screenshots/admin-dashboard.png)
@@ -136,8 +131,9 @@ A modern, full-featured e-commerce platform for purchasing premium dairy product
 **Design & Assets:**
 - Dark theme with yellow accents
 - Responsive mobile-first design
-- Professional product photography
-- Hero image with dark wash overlay
+- Authentic product photography with Frosteva branding
+- Bilingual packaging (English & Hindi)
+- Complete nutritional information labels
 
 ## 🎯 Use Cases
 
@@ -145,7 +141,7 @@ Perfect for:
 - Regional dairy businesses expanding online
 - Farm-to-table product companies
 - Artisanal food producers
-- Health-conscious food retailers
+- Health-conscious food retailers in India
 - Subscription-based organic product sales
 
 ## 📋 Project Structure
@@ -158,7 +154,7 @@ Perfect for:
 │   │   ├── pages/         # Page components
 │   │   ├── lib/           # Utilities & hooks
 │   │   └── App.tsx        # Main app component
-│   ├── public/images/     # Product images
+│   ├── public/images/     # Frosteva product images
 │   ├── index.html         # HTML entry point
 │   └── vite.config.ts     # Vite configuration
 ├── server/                # Backend (Express)
@@ -180,8 +176,8 @@ Perfect for:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/shiro-dairy.git
-   cd shiro-dairy
+   git clone https://github.com/yourusername/frosteva-dairy.git
+   cd frosteva-dairy
    ```
 
 2. **Install dependencies**
@@ -207,15 +203,16 @@ Perfect for:
    - Visit the home page
    - Use category filters to find products
    - Click on products to view details
+   - Select your preferred size variant
 
 2. **Add to Cart**
    - Click "Add to Cart" button
-   - Adjust quantity if needed
+   - Size variant is automatically selected
    - Continue shopping or go to cart
 
 3. **Checkout**
    - Click cart icon (top right)
-   - Review order summary
+   - Review order summary in rupees
    - Click "Proceed to Checkout"
    - Fill in shipping information
    - Click "Place Order"
@@ -231,7 +228,7 @@ Perfect for:
    - Enter credentials: `admin` / `admin123`
 
 2. **Dashboard**
-   - View sales metrics
+   - View sales metrics in rupees
    - Check 7-day sales chart
    - See recent orders
 
@@ -242,7 +239,7 @@ Perfect for:
 
 4. **Manage Products**
    - Navigate to "Products" section
-   - Add new products with "Add Product" button
+   - Add new products with size variants
    - Edit existing products
    - Delete products as needed
 
@@ -321,21 +318,22 @@ This project is open source and available under the MIT License.
 ## 💬 Support
 
 For support and questions:
-- Email: hello@shiro.com
-- GitHub Issues: [Create an issue](https://github.com/yourusername/shiro-dairy/issues)
+- Email: hello@frosteva.com
+- GitHub Issues: [Create an issue](https://github.com/yourusername/frosteva-dairy/issues)
 
-## 👨‍💼 About SHIRO
+## 👨‍💼 About Frosteva
 
-SHIRO (白 - meaning "white" in Japanese) is dedicated to bringing premium quality dairy products and artisanal condiments directly to your door. All our products feature authentic SHIRO branding and premium packaging. Our offerings include:
+Frosteva is dedicated to bringing premium quality dairy products and artisanal condiments directly to your door. All our products feature authentic Frosteva branding with bilingual packaging (English & Hindi) and complete nutritional information. Our offerings include:
 - 100% pure with no artificial additives
 - Sourced from trusted local farms
 - Quality assured through rigorous testing
 - Delivered fresh to maintain maximum nutrition
 - Crafted with care and tradition
-- Authentic product photography with SHIRO branding
+- Authentic product photography with Frosteva branding
 - Competitive Indian rupee pricing
+- Complete nutritional transparency (calories, protein, fat, carbs, sodium)
 
-Every spoonful represents our commitment to excellence and your family's health.
+Every spoonful represents our commitment to excellence, purity, and your family's health.
 
 ---
 
